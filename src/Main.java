@@ -27,7 +27,6 @@ public class Main {
 
       if (input.matches(REGEX_LIST)) {
         listPhoneBook(numberList);
-        continue;
       } else if (input.matches(REGEX_NAME)) {
         addName(input);
       } else if (input.matches(REGEX_NUMBER)) {
